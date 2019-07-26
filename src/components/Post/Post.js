@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Post.css';
 
 const post = (props) => (
@@ -9,6 +8,6 @@ const post = (props) => (
             <div className="Author">{props.author}</div>
         </div>
     </article>
-);
+)
 
 export default post;
